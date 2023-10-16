@@ -1,0 +1,46 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  padding: 0.81rem 1rem;
+  &__container {
+    width: 100%;
+    max-width: 75rem;
+    margin: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:1.25rem;
+    width: 100%;
+    p {
+      color: #000;
+      text-align: center;
+      font-size: 1.125rem;
+      font-weight: 700;
+    }
+    a {
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: 0.875rem;
+      font-weight: 700;
+      width: 100%;
+      max-width: 21.6rem;
+      padding: 0.69rem 1rem;
+      background: linear-gradient(180deg, #f3260b 0%, #8f0145 100%);
+      border-radius: 6.25rem;
+      &:hover,&:focus{
+        text-decoration: none;
+      }
+    }
+  }
+}
